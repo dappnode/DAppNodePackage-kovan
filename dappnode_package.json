@@ -1,0 +1,21 @@
+{
+    "name": "kovan.dnp.dappnode.eth",
+    "version": "0.0.1",
+    "description": "Kovan chain for DAppNode (parity/parity:v1.11.1)",
+    "avatar": "kovan.png",
+    "image": {
+        "path": "",
+        "hash": "",
+        "size": "",
+        "ports": [
+            "30303",
+            "30303/udp"
+        ],
+        "volumes": [
+            "kovan:/root/.local/share/io.parity.ethereum/"
+        ]
+    },
+    "author": "Eduardo Antuña Díez (eduadiez)",
+    "license": "MIT",
+    "dependencies": {}
+}
