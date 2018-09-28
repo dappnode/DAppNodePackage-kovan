@@ -1,6 +1,4 @@
 FROM parity/parity:v1.11.1
-ENV HOME /home
-WORKDIR $HOME
 
 RUN ln -s /parity/parity /usr/bin
 
