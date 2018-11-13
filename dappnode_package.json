@@ -1,21 +1,44 @@
 {
-    "name": "kovan.dnp.dappnode.eth",
-    "version": "0.0.1",
-    "description": "Kovan chain for DAppNode (parity/parity:v1.11.1)",
-    "avatar": "kovan.png",
-    "image": {
-        "path": "",
-        "hash": "",
-        "size": "",
-        "ports": [
-            "30303",
-            "30303/udp"
-        ],
-        "volumes": [
-            "kovan:/root/.local/share/io.parity.ethereum/"
-        ]
-    },
-    "author": "Eduardo Antuña Díez (eduadiez)",
-    "license": "MIT",
-    "dependencies": {}
+  "name": "kovan.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "description": "Kovan chain for DAppNode based on Parity v2.1.4",
+  "avatar": "kovan.png",
+  "type": "library",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "ports": [
+      "32323:30303",
+      "32323:30303/udp",
+      "32324:30304"
+    ],
+    "volumes": [
+      "kovan:/root/.local/share/io.parity.ethereum/"
+    ],
+    "environment": [
+      "EXTRA_OPTS"
+    ]
+  },
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+  ],
+  "keywords": [
+    "parity",
+    "kovan",
+    "ethereum",
+    "testnet"
+  ],
+  "homepage": {
+    "homepage": "https://kovan.etherscan.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappnode/DAppNodePackage-kovan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-kovan/issues"
+  },
+  "license": "GPL-3.0"
 }

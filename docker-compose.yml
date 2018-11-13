@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+    kovan.dnp.dappnode.eth:
+        image: 'kovan.dnp.dappnode.eth:0.1.0'
+        build: ./build
+        volumes:
+            - 'kovan:/root/.local/share/io.parity.ethereum/'
+        environment:
+            - EXTRA_OPTS=
+        ports:
+            - '127.0.0.1:8546:8546'
+            - '127.0.0.1:8545:8545'
+            - '32323:30303'
+            - '32323:30303/udp'
+            - '32324:30304/udp'
+volumes:
+    kovan: {}
