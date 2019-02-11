@@ -4,6 +4,7 @@
   "description": "Kovan chain for DAppNode based on Parity v2.1.4",
   "avatar": "kovan.png",
   "type": "library",
+  "chain": "ethereum",
   "image": {
     "path": "",
     "hash": "",
