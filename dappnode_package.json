@@ -1,14 +1,14 @@
 {
   "name": "kovan.dnp.dappnode.eth",
-  "version": "0.1.0",
-  "description": "Kovan chain for DAppNode based on Parity v2.1.4",
-  "avatar": "kovan.png",
+  "version": "0.1.3",
+  "description": "Kovan chain for DAppNode based on Parity v2.3.7",
+  "avatar": "/ipfs/QmajTBCxjKUqwpiRjUs6csZzfECHLsAoMAiNAq56SyiWE8",
   "type": "library",
   "chain": "ethereum",
   "image": {
-    "path": "",
-    "hash": "",
-    "size": "",
+    "path": "kovan.dnp.dappnode.eth_0.1.3.tar.xz",
+    "hash": "/ipfs/QmahXMUS2ZfwB6UiUYVr5afGRPqprwpB9bqSqJzTZ5cWbu",
+    "size": 11597192,
     "ports": [
       "32323:30303",
       "32323:30303/udp",
@@ -18,7 +18,7 @@
       "kovan:/root/.local/share/io.parity.ethereum/"
     ],
     "environment": [
-      "EXTRA_OPTS"
+      "EXTRA_OPTS=--jsonrpc-port 8545 --jsonrpc-interface all --jsonrpc-hosts all --jsonrpc-cors all --ws-interface all --ws-port 8546 --ws-origins all --ws-hosts all"
     ]
   },
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
