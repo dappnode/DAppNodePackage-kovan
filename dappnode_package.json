@@ -1,14 +1,14 @@
 {
   "name": "kovan.dnp.dappnode.eth",
   "version": "0.1.3",
-  "description": "Kovan chain for DAppNode based on Parity v2.3.7",
+  "description": "Kovan chain for DAppNode based on Parity v2.4.5",
   "avatar": "/ipfs/QmajTBCxjKUqwpiRjUs6csZzfECHLsAoMAiNAq56SyiWE8",
   "type": "library",
   "chain": "ethereum",
   "image": {
     "path": "kovan.dnp.dappnode.eth_0.1.3.tar.xz",
-    "hash": "/ipfs/QmahXMUS2ZfwB6UiUYVr5afGRPqprwpB9bqSqJzTZ5cWbu",
-    "size": 11597192,
+    "hash": "/ipfs/QmXoUMmPvo9MtHKxXM2dXmzG77cMw3SzE57VkS165kTJE6",
+    "size": 11406910,
     "ports": [
       "32323:30303",
       "32323:30303/udp",

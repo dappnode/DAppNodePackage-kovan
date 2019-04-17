@@ -3,7 +3,7 @@ FROM alpine:edge as builder
 
 WORKDIR /usr/src/app
 
-ARG PARITY_VERSION=v2.3.7
+ARG PARITY_VERSION=v2.4.5
 
 RUN apk --no-cache add \
     build-base \
