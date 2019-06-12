@@ -1,14 +1,14 @@
 {
   "name": "kovan.dnp.dappnode.eth",
-  "version": "0.1.4",
-  "description": "Kovan chain for DAppNode based on Parity v2.4.5",
+  "version": "0.1.6",
+  "description": "Kovan chain for DAppNode based on Parity v2.4.6",
   "avatar": "/ipfs/QmajTBCxjKUqwpiRjUs6csZzfECHLsAoMAiNAq56SyiWE8",
   "type": "library",
   "chain": "ethereum",
   "image": {
-    "path": "kovan.dnp.dappnode.eth_0.1.4.tar.xz",
-    "hash": "/ipfs/QmdBwJnY8oAPUQXDyWWbrZv3z1Ue3179fZV9Rjs2hTZSVc",
-    "size": 11501042,
+    "path": "",
+    "hash": "",
+    "size": "",
     "ports": [
       "32323:30303",
       "32323:30303/udp",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dappnode/DAppNodePackage-kovan.git"
+    "url": "https://github.com/dappnode/DAppNodePackage_kovan"
   },
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-kovan/issues"
