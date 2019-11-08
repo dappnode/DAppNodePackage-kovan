@@ -1,14 +1,15 @@
 {
   "name": "kovan.dnp.dappnode.eth",
-  "version": "0.1.4",
-  "description": "Kovan chain for DAppNode based on Parity v2.4.5",
+  "version": "0.1.8",
+  "upstreamVersion": "2.6.4",
+  "shortDescription": "Ethereum testnet with Parity's PoA Protocol",
+  "description": "Kovan is an Ethereum testnet using Parity's Proof of Authority consensus engine, with benefits over Ropsten: \n\n - Immune to spam attacks (as Ether supply is controlled by trusted parties) \n - Consistent 4 second block time \n\n\n For Parity support, head to the [Parity Gitter channel](https://gitter.im/ethcore/parity). After configuring, you probably want to acquire some Kovan Ether. To do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).",
   "avatar": "/ipfs/QmajTBCxjKUqwpiRjUs6csZzfECHLsAoMAiNAq56SyiWE8",
   "type": "library",
-  "chain": "ethereum",
   "image": {
-    "path": "kovan.dnp.dappnode.eth_0.1.4.tar.xz",
-    "hash": "/ipfs/QmdBwJnY8oAPUQXDyWWbrZv3z1Ue3179fZV9Rjs2hTZSVc",
-    "size": 11501042,
+    "path": "",
+    "hash": "",
+    "size": "",
     "ports": [
       "32323:30303",
       "32323:30303/udp",
@@ -21,9 +22,13 @@
       "EXTRA_OPTS=--jsonrpc-port 8545 --jsonrpc-interface all --jsonrpc-hosts all --jsonrpc-cors all --ws-interface all --ws-port 8546 --ws-origins all --ws-hosts all"
     ]
   },
+  "chain": "ethereum",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+  ],
+  "categories": [
+    "Developer tools"
   ],
   "keywords": [
     "parity",
@@ -31,12 +36,13 @@
     "ethereum",
     "testnet"
   ],
-  "homepage": {
-    "homepage": "https://kovan.etherscan.io/"
+  "links": {
+    "homepage": "https://kovan.etherscan.io/",
+    "api": "http://kovan.dappnode:8545"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dappnode/DAppNodePackage-kovan.git"
+    "url": "https://github.com/dappnode/DAppNodePackage_kovan"
   },
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-kovan/issues"
