@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   kovan.dnp.dappnode.eth:
-    image: 'kovan.dnp.dappnode.eth:0.1.4'
+    image: 'kovan.dnp.dappnode.eth:0.1.8'
     build: ./build
     volumes:
       - 'kovan:/root/.local/share/io.parity.ethereum/'

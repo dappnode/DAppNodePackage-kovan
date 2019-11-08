@@ -1,7 +1,7 @@
 {
   "name": "kovan.dnp.dappnode.eth",
-  "version": "0.1.5",
-  "upstreamVersion": "2.4.6",
+  "version": "0.1.8",
+  "upstreamVersion": "2.6.4",
   "shortDescription": "Ethereum testnet with Parity's PoA Protocol",
   "description": "Kovan is an Ethereum testnet using Parity's Proof of Authority consensus engine, with benefits over Ropsten: \n\n - Immune to spam attacks (as Ether supply is controlled by trusted parties) \n - Consistent 4 second block time \n\n\n For Parity support, head to the [Parity Gitter channel](https://gitter.im/ethcore/parity). After configuring, you probably want to acquire some Kovan Ether. To do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).",
   "avatar": "/ipfs/QmajTBCxjKUqwpiRjUs6csZzfECHLsAoMAiNAq56SyiWE8",
