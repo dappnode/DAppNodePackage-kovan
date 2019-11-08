@@ -11,8 +11,6 @@ services:
         all --jsonrpc-cors all --ws-interface all --ws-port 8546 --ws-origins
         all --ws-hosts all
     ports:
-      - '127.0.0.1:8546:8546'
-      - '127.0.0.1:8545:8545'
       - '32323:30303'
       - '32323:30303/udp'
       - '32324:30304/udp'

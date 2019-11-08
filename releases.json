@@ -6,5 +6,13 @@
       "dappnode": "Thu, 19 Sep 2019 18:37:39 GMT"
     },
     "link": "http://my.dappnode/#/sdk/publish/r=kovan.dnp.dappnode.eth&v=0.1.7&h=%2Fipfs%2FQmVb2TGkQ2oMRWTQaxQMcQyNiJa4Q8b1qCMEF1VNL5b2qy"
+  },
+  "0.1.8": {
+    "hash": "/ipfs/QmTdBmUPHjxjA9pa8NaHVypCYiFMfz37URGGHnWRBjjUvS",
+    "type": "directory",
+    "uploadedTo": {
+      "dappnode": "Fri, 08 Nov 2019 21:50:48 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=kovan.dnp.dappnode.eth&v=0.1.8&h=%2Fipfs%2FQmTdBmUPHjxjA9pa8NaHVypCYiFMfz37URGGHnWRBjjUvS"
   }
 }
