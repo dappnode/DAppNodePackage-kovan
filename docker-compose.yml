@@ -1,18 +1,18 @@
-version: '3.4'
+version: "3.4"
 services:
   kovan.dnp.dappnode.eth:
-    image: 'kovan.dnp.dappnode.eth:0.1.8'
-    build: ./build
+    image: "kovan.dnp.dappnode.eth:0.1.8"
+    build: .
     volumes:
-      - 'kovan:/root/.local/share/io.parity.ethereum/'
+      - "kovan:/root/.local/share/io.parity.ethereum/"
     environment:
       - >-
         EXTRA_OPTS=--jsonrpc-port 8545 --jsonrpc-interface all --jsonrpc-hosts
         all --jsonrpc-cors all --ws-interface all --ws-port 8546 --ws-origins
         all --ws-hosts all
     ports:
-      - '32323:30303'
-      - '32323:30303/udp'
-      - '32324:30304/udp'
+      - "32323:30303"
+      - "32323:30303/udp"
+      - "32324:30304/udp"
 volumes:
   kovan: {}
