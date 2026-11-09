@@ -2,7 +2,10 @@ version: "3.4"
 services:
   kovan.dnp.dappnode.eth:
     image: "kovan.dnp.dappnode.eth:0.1.8"
-    build: .
+    build:
+      context: .
+      args:
+        PARITY_VERSION: v2.6.4
     volumes:
       - "kovan:/root/.local/share/io.parity.ethereum/"
     environment:
